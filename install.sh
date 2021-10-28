@@ -182,7 +182,7 @@ create_systemd_service_file() {
     $SUDO tee "$FILE_SERVICE" >/dev/null << EOF
 [Unit]
 Description=Deviceplane agent
-Documentation=https://deviceplane.com/docs/
+Documentation=https://nanokernel.com/
 Wants=network-online.target
 
 [Install]
